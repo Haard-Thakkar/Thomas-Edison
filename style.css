@@ -1,0 +1,72 @@
+body 
+ {
+   background-color: white;
+   color: purple;
+}
+h1 {
+  text-align: center;
+    font-size: 40px;
+}
+p {
+    font-size: 20px;
+}
+#End {
+    font-size: 20px;
+    color: red;
+}
+#TurnOn {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: black;
+  background-color: white;
+  border: 3px solid #008CBA;
+  border-radius: 15px;
+  box-shadow: 0 13px #999;
+    margin-bottom: 20px;
+    transition-duration: 0.4s;
+    margin-right: 10px;
+}
+
+#TurnOn:hover {
+    background-color: #008CBA;
+    color: white;
+}
+
+#TurnOn:active {
+  background-color: #008CBA;
+  box-shadow: 0 3px #666;
+  transform: translateY(10px);
+}
+#TurnOff {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: black;
+  background-color: white;
+  border: 3px solid #f44336;
+  border-radius: 15px;
+  box-shadow: 0 13px #999;
+    margin-bottom: 20px;
+    transition-duration: 0.4s;
+    margin-right: 10px;
+}
+
+#TurnOff:hover {
+    background-color: #f44336;
+    color: white;
+}
+
+#TurnOff:active {
+  background-color: #f44336;
+  box-shadow: 0 3px #666;
+  transform: translateY(10px);
+}
